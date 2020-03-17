@@ -181,23 +181,23 @@ body {
 }
 
 .fade-2 {
-    animation: fadeIn ease 7s;
+    animation: fadeIn ease 6s;
 }
 
 .fade-3 {
-    animation: fadeIn ease 9s;
+    animation: fadeIn ease 7s;
 }
 
 .fade-4 {
-    animation: fadeIn ease 11s;
+    animation: fadeIn ease 8s;
 }
 
 .fade-5 {
-    animation: fadeIn ease 13s;
+    animation: fadeIn ease 9s;
 }
 
 .fade-6 {
-    animation: fadeIn ease 15s;
+    animation: fadeIn ease 10s;
 }
 
 @keyframes fadeIn {
