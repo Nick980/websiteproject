@@ -1,0 +1,158 @@
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/wp1864422-rhino-wallpapersBW.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.1s; 
+    z-index: 999;
+  }
+
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+
+.sidenav a:hover {
+    color: gray;
+  }
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+.openbutton {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+  }
+
+.ha{
+    vertical-align: top;
+    position: fixed;
+    right: 0px;
+    font-size: 60px;
+    color: white;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 5%;
+  }
+
+.hb {
+    position: relative;
+    left: 15%;
+    top: 125px;
+    background: rgba(0, 0, 0, 0.85);
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+    width: 40%;
+    color: white;
+    padding: 10px;
+  }
+
+.hc {
+    position: relative;
+    left: 15%;
+    top: 175px;
+    background: rgba(0, 0, 0, 0.85);
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+    width: 40%;
+    color: white;
+    padding: 10px;
+  }
+
+.hd {
+    position: relative;
+    left: 13.40%;
+    top: 195px;
+    background: rgba(0, 0, 0, 0.85);
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+    width: 40%;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+  }
+
+.va {
+    float: left;
+    margin-top: -295px;
+    margin-left: 350px;
+    border-radius: 15px;
+    display: block;
+  }
+
+img {
+    border-radius: 10%;
+    position: fixed;
+    right: 180px;
+    top: 200px;
+    width: 275px;
+  }
+
+.pa {
+    color: white;
+    float: right;
+    width: 100%;
+    margin-right: 5%;
+  }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-twitter {
+    background: darkgray;
+    color: white;
+    position: fixed;
+    right: 400px;
+    top: 580px;
+  }
+
+.fa-linkedin {
+    background: darkgray;
+    color: white;
+    position: fixed;
+    right: 340px;
+    top: 580px;
+  }
